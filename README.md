@@ -1,17 +1,36 @@
-# my_app_belyaeva
+# Карточки с фактами о зверьках
 
-A new Flutter project.
+Flutter-приложение: на экране показывается фото животного и факт о нём, а кнопка «Новый факт» показывает другое животное и факт!!
 
-## Getting Started
+## Автор
+Беляева Виктория, группа ИСП-241, дата сдачи: 26.11.2026
 
-This project is a starting point for a Flutter application.
+## Стек и версии
+- Flutter: 3.50.0
+- Dart: 3.13.2
+- Платформа: Web (Chrome)
+- IDE: VS Code
 
-A few resources to get you started if this is your first Flutter project:
+## Скриншот
+![Приложение](img/step6_belyaeva.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Структура проекта
+- `lib/main.dart` — точка входа, MaterialApp → Scaffold → GradientContainer
+- `lib/gradient_container.dart` — StatelessWidget, градиентный фон, цвета передаются параметрами
+- `lib/styled_text.dart` — StatelessWidget, желтый текст размером 32, текст передаётся параметром
+- `lib/fact_generator.dart` — StatefulWidget, картинка, факт и кнопка, setState и Random
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Как запустить
+```bash
+git clone https://github.com/bleb-le/Flutter_Lab5
+cd my_app_belyaeva
+flutter pub get
+flutter run -d chrome
+```
+
+## Что изучили
+изучила факты о животных!!
+
+## Ответы на вопросы
+
+вопросов нет!
